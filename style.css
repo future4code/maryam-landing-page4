@@ -24,3 +24,23 @@ header div ul{
 header div ul li{
     padding: 10px;
 }
+footer{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: orangered;
+    position: relative;
+    margin-top: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.footer-redes-sociais{
+    display: flex;
+}
+.footer-redes-sociais img{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+}
