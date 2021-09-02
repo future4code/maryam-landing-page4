@@ -41,3 +41,40 @@ header div ul li{
     text-align: center;
 }
 
+.main-flex{
+    display: flex;
+    height: 84vh;
+    width: 100%;
+    background-color: orchid;
+}
+.main-flex a{
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+}
+.main-flex div img{
+    height: 40%;
+    width: 100%;
+}
+.main-flex a:hover{
+    opacity: 0.8;
+}
+footer{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: orangered;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.footer-redes-sociais{
+    display: flex;
+}
+.footer-redes-sociais img{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+}
