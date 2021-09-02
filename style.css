@@ -24,13 +24,30 @@ header div ul{
 header div ul li{
     padding: 10px;
 }
+.main-flex{
+    display: flex;
+    height: 84vh;
+    width: 100%;
+    background-color: orchid;
+}
+.main-flex a{
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+}
+.main-flex div img{
+    height: 40%;
+    width: 100%;
+}
+.main-flex a:hover{
+    opacity: 0.8;
+}
 footer{
     display: flex;
     height: 50px;
     width: 100%;
     background-color: orangered;
     position: relative;
-    margin-top: 100vh;
     align-items: center;
     justify-content: center;
 }
