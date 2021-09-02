@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orangered;
+    height: 50px;
+    width: 100%;
+}
+header img{
+    padding-left: 10px;
+    margin-top: 3px;
+    height: fit-content;
+    width: 50px;
+}
+header div ul{
+    display: flex;
+    list-style-type: none;
+}
+header div ul li{
+    padding: 10px;
+}
