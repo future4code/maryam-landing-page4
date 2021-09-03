@@ -2,6 +2,8 @@
     margin: 0;
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-weight: bold;
 }
 header{
     display: flex;
@@ -24,6 +26,10 @@ header div ul{
 header div ul li{
     padding: 10px;
 }
+header div ul li a:hover{
+    color: white;
+    font-weight: bolder;
+}
 
 .box-equipe {
     display: flex;
@@ -45,7 +51,7 @@ header div ul li{
     display: flex;
     height: 84vh;
     width: 100%;
-    background-color: orchid;
+    background-color: rgb(250, 160, 130);
 }
 .main-flex a{
     border: 1px solid black;
@@ -53,11 +59,18 @@ header div ul li{
     width: 100%;
 }
 .main-flex div img{
-    height: 40%;
+    height: 330px;
+    padding-bottom: 10px;
     width: 100%;
 }
 .main-flex a:hover{
     opacity: 0.8;
+}
+.main-flex div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 footer{
     display: flex;
