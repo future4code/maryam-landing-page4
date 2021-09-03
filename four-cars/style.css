@@ -1,9 +1,10 @@
-body{
+*{
     margin: 0;
-    padding: 0;
-    tet-decoration: none;
-    font-family: 'roboto Condensed', sans-serif;
-    color: orangered;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-weight: bold;
+
 }
 header{
     display: flex;
@@ -15,18 +16,23 @@ header{
 }
 header img{
     padding-left: 10px;
-    margin-top: 4px;
-    height:fit-content;
+    margin-top: 3px;
+    height: fit-content;
+
     width: 50px;
 }
 header div ul{
     display: flex;
     list-style-type: none;
-    
 }
 header div ul li{
     padding: 10px;
 }
+header div ul li a:hover{
+    color: white;
+    font-weight: bolder;
+}
+
 section {
     width: 10px;
     height: 0px;
@@ -36,15 +42,12 @@ section {
     padding: 10px;
     
 }
-
-
 .transitionBackground {
     background-color: orangered ;
     width: 1140px;
     height: 25px;
     border: 1px solid black;
 }
-
 button {
     font-size: 20px;
     padding: 15px 30px;
@@ -212,26 +215,22 @@ button:hover {
     width: 200px;
     opacity: 1;
 }
-
-
 footer{
-    display:flex;
+    display: flex;
+
     height: 50px;
     width: 100%;
     background-color: orangered;
     position: relative;
-    margin-top: 10vh;
     align-items: center;
     justify-content: center;
-    
-
-    
 }
 .footer-redes-sociais{
     display: flex;
 }
 .footer-redes-sociais img{
     display: flex;
+
     align-items: center;
     padding: 10px;
     height: 30px;
