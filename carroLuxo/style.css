@@ -235,3 +235,76 @@ footer{
     height: 30px;
     width: 30px;
 }
+@media screen and (max-device-width: 500px) {
+    section{
+        padding: 0;
+        padding-top: 10px;
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+    .transitionBackground{
+        width: 100%;
+        margin: 0;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .card-container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card2{
+        margin: 0;
+        width: 200px;
+        height: 200px;
+    }
+    .card-text2{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .card-text2 h1,.card-text2 h3{
+        padding-top:  10px;
+    }
+    .container3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .card-container3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card3{
+        margin: 0;
+        width: 200px;
+        height: 200px;
+    }
+    .card-text3{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .card-text3 h1,.card-text2 h3{
+        padding-top:  10px;
+    }
+}
