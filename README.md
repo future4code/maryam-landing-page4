@@ -27,6 +27,7 @@ DESKTOP PRINTS
 ![desktop-equipe](https://user-images.githubusercontent.com/10377511/132071633-aaf26ff9-a338-448a-b165-f894de2b2835.PNG)
 
 MOBILE PRINTS
+
 ![mobile-home](https://user-images.githubusercontent.com/10377511/132071655-741f96ac-18cc-4bee-b481-11214089ff51.PNG)
 ![mobile-popular](https://user-images.githubusercontent.com/10377511/132071660-02e8d891-caec-49b8-ba31-1a6608e25e40.PNG)
 ![mobile-luxo](https://user-images.githubusercontent.com/10377511/132071667-6c62e435-b18d-4231-b67e-a36c1397a779.PNG)
