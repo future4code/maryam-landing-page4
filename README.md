@@ -1,6 +1,6 @@
 # 4CARS - Aluguel de carros    :car:
 
-projeto criado para a empresa 4cars, que é uma loja de aluguel de carros.
+Projeto criado para a empresa 4cars, que é uma loja de aluguel de carros.
 
 Possuem modelos populares e de luxo.
 
